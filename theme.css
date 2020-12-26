@@ -217,4 +217,24 @@ blockquote {
 .vditor-reset table td, .vditor-reset table th {
     border: 1px solid gray;
 }
-  
+
+/*列表*/
+
+/*简单竖线*/
+ul,
+ol,
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+    list-style-position: inside;
+}
+
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+    content:'';
+    border-left: 1px solid  #535353;
+    margin-left: 0.3em !important;
+}
